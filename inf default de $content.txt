@@ -1,0 +1,1 @@
+$content = "<?php\n// Contenido del nuevo archivo\n\$mensaje = 'Hola desde el nuevo archivo';\necho \$mensaje;\n?>";
