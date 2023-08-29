@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     
     $content = "<?php\n// Contenido del nuevo archivo\n\$mensaje = 'Hola desde el nuevo archivo';\necho \$mensaje;\n?>";
-//Buscar forma de usar platilla personalizada
+//Buscar forma de usar platilla 
 
 
     if (!is_dir($userFolderPath) && file_put_contents($newFileName, $content) !== false) {
