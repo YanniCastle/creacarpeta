@@ -11,9 +11,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $userFolderPath = "sitios_usuarios/$username";//crea una carpeta
     $newFileName = "sitios_usuarios/$username.php";//crea un archivo.php
  //PENDIENTE ACOMODAR ARCHIVO PHP EN CARPETA   
-    
- $content = "<?php\n// Contenido del nuevo archivo\n\$mensaje = 'Hola desde el nuevo archivo';\necho \$mensaje;\n?>";
-
+ 
+ $content = "<?php\n// nuevo archivo \n\$mensaje = 'probando el nuevo archivo';\necho \$mensaje;\n?>";
+   
    // $content =fopen("sitios_usuarios/sitio_personalizado.php", "r+");
 //Buscar forma de usar platilla 
 
